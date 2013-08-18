@@ -16,10 +16,7 @@ let @a = 'O#ifndef __GNUC__/_v/}y/}o#elseo#endif //__GNUC__Op'
 let @f = 'v/}=x/{r(/}cw);'
 " fugitive mapping
 nmap <C-g>d :Gdiff<CR>
-<<<<<<< HEAD
 nmap <C-g>sd :Gsdiff<CR>
-=======
->>>>>>> vimrc.local: initial commit
 nmap <C-g>w :Gwrite<CR>
 nmap <C-g>2 :diffget /2<CR>
 nmap <C-g>3 :diffget /3<CR>
@@ -33,6 +30,7 @@ set nobackup       " no backup files
 set nowritebackup  " only in case you don't want a backup file while editing
 set noswapfile     " no swap files
 
+<<<<<<< HEAD
 " spf13-vim make solarized my colorscheme
 set background=dark
 let g:solarized_termcolors=16
