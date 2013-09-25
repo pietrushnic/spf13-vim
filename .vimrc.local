@@ -30,7 +30,7 @@ set nobackup       " no backup files
 set nowritebackup  " only in case you don't want a backup file while editing
 set noswapfile     " no swap files
 
-<<<<<<< HEAD
+
 " spf13-vim make solarized my colorscheme
 set background=dark
 let g:solarized_termcolors=16
