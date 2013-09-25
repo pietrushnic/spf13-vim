@@ -15,6 +15,7 @@ let @a = 'O#ifndef __GNUC__/_v/}y/}o#elseo#endif //__GNUC__Op'
 let @f = 'v/}=x/{r(/}cw);'
 " fugitive mapping
 nmap <C-g>d :Gdiff<CR>
+nmap <C-g>sd :Gsdiff<CR>
 nmap <C-g>w :Gwrite<CR>
 nmap <C-g>2 :diffget /2<CR>
 nmap <C-g>3 :diffget /3<CR>
