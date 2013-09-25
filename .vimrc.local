@@ -33,6 +33,9 @@ set noswapfile     " no swap files
 set background=dark
 let g:solarized_termcolors=16
 color solarized
+" ignore white space changes
+set diffopt+=iwhite
+
 filetype plugin indent on
 
 let g:pymode = 1
