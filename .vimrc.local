@@ -69,3 +69,9 @@ let g:pymode_syntax = 1
 "
 " " Don't autofold code
 " let g:pymode_folding = 1"
+
+" tags and cscope db rescan
+nnoremap <silent> rs    :cs kill 0<CR>:!ctags -R;cscope -R -q -b -v<CR>
+" " reconnect to cscope db
+nnoremap <silent> cs    :cs add cscope.out<CR>
+
