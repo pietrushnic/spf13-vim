@@ -76,3 +76,4 @@ nnoremap <silent> rs    :cs kill 0<CR>:!ctags -R;cscope -R -q -b -v<CR>
 nnoremap <silent> rr    :!ripper-tags -R<CR>
 " " reconnect to cscope db
 nnoremap <silent> cs    :cs add cscope.out<CR>
+set mouse=""
