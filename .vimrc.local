@@ -72,8 +72,8 @@ let g:pymode_syntax = 1
 " let g:pymode_folding = 1"
 
 " tags and cscope db rescan
-nnoremap <silent> rs    :cs kill 0<CR>:!ctags -R;cscope -R -q -b -v<CR>
-nnoremap <silent> rr    :!ripper-tags -R<CR>
+nnoremap <silent> Rs    :cs kill 0<CR>:!ctags -R;cscope -R -q -b -v<CR>
+nnoremap <silent> Rr    :!ripper-tags -R<CR>
 " " reconnect to cscope db
 nnoremap <silent> cs    :cs add cscope.out<CR>
 set mouse=""
