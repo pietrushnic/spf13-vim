@@ -78,3 +78,6 @@ nnoremap <silent> Rr    :!ripper-tags -R<CR>
 " " reconnect to cscope db
 nnoremap <silent> cs    :cs add cscope.out<CR>
 set mouse=""
+set tabstop=8
+
+nnoremap <leader>g :grep <cword> . -r<CR>
