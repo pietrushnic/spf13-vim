@@ -1,6 +1,5 @@
 set shell=/bin/zsh
-"set makeprg=source\ edksetup.sh;build\ -j\ build.log
-set makeprg=scons\ -j3\ -c;scons\ -j3
+set makeprg=gcc\ -Wall\ %
 
 " editing macros
 " insert quotes and EOL to begging and end of string
