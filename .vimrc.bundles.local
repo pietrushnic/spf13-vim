@@ -1,4 +1,3 @@
-let g:spf13_no_autochdir = 1
 Bundle 'tpope/vim-sleuth'
 Bundle 'pietrushnic/c.vim'
 Bundle 'pietrushnic/ASL'
