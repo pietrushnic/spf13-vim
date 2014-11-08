@@ -93,3 +93,4 @@ au BufRead,BufNewFile,BufEnter ~/.gdbinit call LinuxFormatting()
 
 let g:task_report_name = 'long'
 let g:notes_directories = ['~/Documents/Notes']
+let g:neocomplcache_disable_auto_complete = 1
