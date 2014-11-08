@@ -77,6 +77,19 @@ set tabstop=8
 
 nnoremap <leader>g :grep <cword> . -r<CR>
 au Syntax taskreport,notes IndentGuidesDisable
+au BufRead,BufNewFile,BufEnter ~/.gdbinit call LinuxFormatting()
+
+""function LinuxFormatting()
+""    setlocal tabstop=8
+""    setlocal shiftwidth=8
+""    setlocal softtabstop=8
+""    setlocal textwidth=80
+""    setlocal noexpandtab
+""
+""    setlocal cindent
+""    setlocal formatoptions=tcqlron
+""    setlocal cinoptions=:0,l1,t0,g0
+""endfunction
 
 let g:task_report_name = 'long'
 let g:notes_directories = ['~/Documents/Notes']
