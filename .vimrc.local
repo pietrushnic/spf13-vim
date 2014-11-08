@@ -19,6 +19,7 @@ nmap <C-g>sd :Gsdiff<CR>
 nmap <C-g>w :Gwrite<CR>
 nmap <C-g>2 :diffget /2<CR>
 nmap <C-g>3 :diffget /3<CR>
+nmap <C-g>g :diffget<CR>
 nmap <C-g>u :diffupdate<CR>
 nmap <C-g>s :Gstatus<CR>
 nmap <C-g>c :Gcommit -m "%:t:r: fix "<C-left>
