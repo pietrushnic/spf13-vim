@@ -1,5 +1,1 @@
 Bundle 'tpope/vim-sleuth'
-Bundle 'pietrushnic/c.vim'
-Bundle 'pietrushnic/ASL'
-Bundle 'pietrushnic/UEFI-snippets'
-Bundle 'vivien/vim-addon-linux-coding-style'

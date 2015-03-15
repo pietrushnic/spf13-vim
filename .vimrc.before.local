@@ -1,4 +1,4 @@
-let g:spf13_bundle_groups=['general', 'neocomplcache', 'programming', 'misc', 'ruby']
+let g:spf13_bundle_groups=['general', 'programming']
 let g:airline_powerline_fonts=1
 let g:airline_inactive_collapse=1
 let g:airline#extensions#tabline#enabled = 1
