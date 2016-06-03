@@ -1,1 +1,2 @@
 Bundle 'tpope/vim-sleuth'
+Bundle 'vim-scripts/cscope.vim'
