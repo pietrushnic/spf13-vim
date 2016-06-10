@@ -86,3 +86,5 @@ set grepprg=grep\ -n\ --exclude=tags\ --exclude=cscope.out\ $*\ /dev/null
 au BufRead,BufNewFile,BufEnter /home/pietrushnic/src/qemu/* setlocal ts=4 sts=4 sw=4 smarttab expandtab
 au BufRead,BufNewFile,BufEnter /home/pietrushnic/src/linux-sunxi/* setlocal ts=8 sts=8 sw=8 smarttab noexpandtab cindent
 au BufRead,BufNewFile,BufEnter /home/pietrushnic/src/linux/* setlocal ts=8 sts=8 sw=8 smarttab noexpandtab cindent
+au BufRead,BufNewFile,BufEnter /home/pietrushnic/src/osop/win_src/brinco* setlocal ts=8 sts=8 sw=8 smarttab noexpandtab cindent
+au BufRead,BufNewFile,BufEnter /home/pietrushnic/src/osop/brinco/ota-bootloader-server-side/* setlocal ts=4 sts=4 sw=4 smarttab expandtab
