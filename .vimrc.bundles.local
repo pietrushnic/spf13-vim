@@ -1,2 +1,4 @@
 Bundle 'tpope/vim-sleuth'
 Bundle 'vim-scripts/cscope.vim'
+Bundle 'guyzmo/notmuch-abook'
+Bundle 'vim-airline/vim-airline-theme'
